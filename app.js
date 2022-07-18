@@ -12,8 +12,12 @@ allLiEl.forEach(el => {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault()
-  const checkedValue = form.querySelector('input[name="rating"]:checked').value
-  card.innerHTML = getThankYouHtml(checkedValue)
+  try {
+    const checkedValue = form.querySelector('input[name="rating"]:checked')
+    card.innerHTML = getThankYouHtml(checkedValue.value)
+  } catch {
+    alert('Please select a rating')
+  }
 })
 
 const getThankYouHtml = (rating) => {
