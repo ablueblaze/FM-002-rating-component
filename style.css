@@ -124,7 +124,6 @@ Rating numbers
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid orange; */
   padding: 0;
   margin-bottom: 1.5em;
 }
@@ -147,17 +146,6 @@ li:focus {
   color: var(--clr-white);
 }
 
-label:checked {
-  background-color: var(--clr-grey-300);
-  color: var(--clr-white);
-}
-
-input[type=radio]:checked + label {
-  background-color: var(--clr-grey-300);
-  color: var(--clr-white);
-
-}
-
 .checked {
   background-color: var(--clr-grey-300);
   color: var(--clr-white);
@@ -165,8 +153,9 @@ input[type=radio]:checked + label {
 
 input[type=radio] {
   position: absolute;
-  
   opacity: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*  
@@ -174,6 +163,32 @@ input[type=radio] {
 Card (Thankyou)
 ############
 */
+
+.thanks-card {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.thank-you {
+  font-size: 2em;
+  color: var(--clr-white);
+}
+
+.submitted-text {
+  background-color: var(--clr-blue-400);
+  /* Feel like there is a better solution to centering on the y axis */
+  padding: .75em 2em .5em 2em;
+  border-radius: 2em;
+  color: var(--clr-prime);
+}
+
+.thank-you-img {
+  width: 50%;
+}
 
 /*  
 ############
