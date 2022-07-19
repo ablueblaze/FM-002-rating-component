@@ -7,6 +7,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Links](#links)
+  - [Continued development](#continued-development)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -26,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+[Demo](https://ablueblaze.github.io/FM-002-rating-component/)
+[Github repo](https://github.com/ablueblaze/FM-002-rating-component)
 
 ## My process
 
@@ -49,6 +50,9 @@ Users should be able to:
   Keep classes and id's to a minimum
     This way I'm not creating classes/id's that don't get used
 
+## Continued development
+
+Work on making it more responsive to the page size
 
 ### Built with
 
@@ -60,11 +64,8 @@ Users should be able to:
 
 This one taught me that there's a time to be clever, and a time to just be clunky. I spent at least an hour trying to find a "clever" solution to highlighting the chosen rating number. Finally I just built a simple class, and had an eventListener handle it. Took me a few minutes, and I was liberally applying head to desk after I got it up and working.
 
-
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+### Blaze Scott
 
-
+[linkedin](https://www.linkedin.com/in/blaze-scott-3672b891/)
